@@ -13,7 +13,9 @@ def cholesterol_analysis():
     if test_info[0] == "HDL":
         answer = HDL_analysis(int(test_info[1]))
         print("The level is {}".format(answer))
-              
+def new_feature():
+    pass #python keyword that allows python to pass over this line
+
 def interface():
     while True: 
         print("Cholesterol Calculator")
